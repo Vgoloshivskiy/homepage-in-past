@@ -13,7 +13,7 @@ deploy:
     region: us-east-2
     acl: public_read
     on:
-      branch: develop
+      branch: Avs-test
   - provider: s3
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
